@@ -6,7 +6,8 @@
 #
 default: &default
   adapter: postgresql
-  database: myrubyblog
+  database: joshuaquek
+  schema_search_path: myrubyblog
   username: joshuaquek
   password: 
   pool: 5
@@ -18,7 +19,8 @@ default: &default
 
 development:
   adapter: postgresql
-  database: myrubyblog
+  database: joshuaquek
+  schema_search_path: myrubyblog
   username: joshuaquek
   password: 
   pool: 5
@@ -33,7 +35,8 @@ development:
 #   database: db/test.sqlite3
 test:
   adapter: postgresql
-  database: myrubyblog
+  database: joshuaquek
+  schema_search_path: myrubyblog
   username: joshuaquek
   password: 
   pool: 5
@@ -45,7 +48,8 @@ test:
 
 production:
   adapter: postgresql
-  database: myrubyblog
+  database: joshuaquek
+  schema_search_path: myrubyblog
   username: joshuaquek
   password: 
   pool: 5
