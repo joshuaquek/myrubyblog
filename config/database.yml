@@ -6,10 +6,9 @@
 #
 default: &default
   adapter: postgresql
-  database: joshuaquek
-  schema_search_path: myrubyblog
-  username: joshuaquek
-  password: 
+  database: dd8iug2r9grl3n
+  username: xosjmewwnndunr
+  password: XP304CR3e7VynHznnTozso0jhy
   pool: 5
   timeout: 5000
 
