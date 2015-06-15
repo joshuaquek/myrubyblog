@@ -1,6 +1,14 @@
 <h1>Blog Posts</h1>
-<h3>Sample Post One </h3>
-<p><%= @content_first %></p>
+
+
+<%
+for a_post in @posts # @posts is a variable defined in the controller as @posts = Post.all. This gets all of the posts from the DB and stores it into an array, which is then stored in the variable @posts.
+%>
+
+<h3><%= link_to( a_post.title , a_post )%></h3>
+<p><%= a_post.body %></p>
 <hr>
-<h3>Sample Post Two</h3>
-<p><%= @content_second %></p>
+
+<%
+end
+%>
