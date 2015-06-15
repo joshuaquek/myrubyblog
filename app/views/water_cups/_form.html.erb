@@ -1,0 +1,29 @@
+<%= form_for(@water_cup) do |f| %>
+  <% if @water_cup.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@water_cup.errors.count, "error") %> prohibited this water_cup from being saved:</h2>
+
+      <ul>
+      <% @water_cup.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :age %><br>
+    <%= f.number_field :age %>
+  </div>
+  <div class="field">
+    <%= f.label :condition %><br>
+    <%= f.check_box :condition %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

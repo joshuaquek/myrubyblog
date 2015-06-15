@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :water_cups
+
   get 'categories/index'
 
   get 'categories/edit'

@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @water_cup.name %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @water_cup.age %>
+</p>
+
+<p>
+  <strong>Condition:</strong>
+  <%= @water_cup.condition %>
+</p>
+
+<%= link_to 'Edit', edit_water_cup_path(@water_cup) %> |
+<%= link_to 'Back', water_cups_path %>
