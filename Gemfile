@@ -8,6 +8,8 @@ gem 'rails', '4.2.0'
 
 # Commented out sqlite3, will use Postgresql as our database for Active Record instead.
 gem 'pg'
+gem 'devise'
+gem 'activeadmin' , github: 'activeadmin'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
