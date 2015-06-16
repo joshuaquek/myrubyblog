@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :categories
+
   resources :water_cups
 
   get 'categories/index'
