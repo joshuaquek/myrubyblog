@@ -1,2 +1,12 @@
-<h1>Welcome to the home page</h1>
-<p>This is the main landing page.</p>
+<% for a_post in @posts %>
+    <div class="post">
+        <h2 class="title"><%= link_to( a_post.title , a_post )%></h2>
+        <div class="entry">
+            <%= a_post.body %>
+        </div>
+        <div class="byline">
+        <p class="meta">May 07, 2012 Posted by <a href="#">Someone</a></p>
+        <p class="links"><a href="post.html">Read More</a> BLAH BLAH BLAH</p>
+        </div>
+    </div>
+<% end %>
