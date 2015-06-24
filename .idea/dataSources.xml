@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="92917861">
+  <component name="DataSourceManagerImpl" format="xml" hash="1980614789">
     <data-source source="LOCAL" name="Rails myrubyblog: default" uuid="4ea1f28e-d89e-4610-9b44-16a3fae84fb0">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
@@ -19,7 +19,7 @@
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:joshuaquek</jdbc-url>
+      <jdbc-url>jdbc:postgresql:myrubyblog_development</jdbc-url>
       <libraries>
         <library>
           <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/postgresql-driver-license.txt</url>
@@ -33,7 +33,7 @@
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:joshuaquek</jdbc-url>
+      <jdbc-url>jdbc:postgresql:myrubyblog_test</jdbc-url>
       <libraries>
         <library>
           <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/postgresql-driver-license.txt</url>
@@ -47,7 +47,7 @@
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:joshuaquek</jdbc-url>
+      <jdbc-url>jdbc:postgresql:myrubyblog_production</jdbc-url>
       <libraries>
         <library>
           <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/postgresql-driver-license.txt</url>

@@ -8,17 +8,14 @@
       <default-schemas>joshuaquek.*</default-schemas>
     </data-source>
     <data-source name="Rails myrubyblog: development" uuid="627efcb2-613a-4e0c-a533-1daa89a6d674">
-      <user-name>joshuaquek</user-name>
       <schema-pattern>joshuaquek.pg_catalog joshuaquek.public</schema-pattern>
       <default-schemas>joshuaquek.pg_catalog joshuaquek.public</default-schemas>
     </data-source>
     <data-source name="Rails myrubyblog: test" uuid="7222e3fd-4652-47dd-8728-24124d5456bf">
-      <user-name>joshuaquek</user-name>
       <schema-pattern>joshuaquek.pg_catalog joshuaquek.public</schema-pattern>
       <default-schemas>joshuaquek.pg_catalog joshuaquek.public</default-schemas>
     </data-source>
     <data-source name="Rails myrubyblog: production" uuid="6b89120e-b12f-45fe-9cd3-848689e95d1f">
-      <user-name>joshuaquek</user-name>
       <schema-pattern>joshuaquek.pg_catalog joshuaquek.public</schema-pattern>
       <default-schemas>joshuaquek.pg_catalog joshuaquek.public</default-schemas>
     </data-source>
